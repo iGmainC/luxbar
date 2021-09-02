@@ -27,6 +27,10 @@ $material-amber-bg: #ff6f00;
 $material-amber-hl: #ff8f00;
 $material-amber-fg: #fff;
 
+$material-yellow-bg: #ffe300;
+$material-yellow-hl: #dfc500;
+$material-yellow-fg: #fff;
+
 $material-bluegrey-bg: #263238;
 $material-bluegrey-hl: #37474f;
 $material-bluegrey-fg: #fff;
@@ -163,6 +167,28 @@ $material-brown-fg: #fff;
         span::before,
         span::after {
             background-color: $material-amber-fg;
+        }
+    }
+}
+
+// ******* default material-yellow *******
+.#{$luxbar-css-prefix}-menu-material-yellow,
+.#{$luxbar-css-prefix}-menu-material-ambyellower .dropdown ul {
+    background-color: $material-yellow-bg;
+    color: $material-yellow-fg;
+}
+
+.#{$luxbar-css-prefix}-menu-material-yellow {
+    .active,
+    .#{$luxbar-css-prefix}-item:hover {
+        background-color: $material-yellow-hl;
+    }
+
+    .#{$luxbar-css-prefix}-hamburger {
+        span,
+        span::before,
+        span::after {
+            background-color: $material-yellow-fg;
         }
     }
 }
