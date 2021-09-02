@@ -41,7 +41,7 @@
 
 .#{$luxbar-css-prefix}-brand {
     font-size: 1.6em;
-    padding: $luxbar-padding;
+    padding: $luxbar-brand;
 }
 
 .#{$luxbar-css-prefix}-menu {
@@ -71,7 +71,7 @@
     height: $luxbar-height;
 
     a {
-        padding: $luxbar-padding;
+        padding: $luxbar-item;
         display: block;
     }
 }
