@@ -57,7 +57,7 @@
 
 .luxbar-brand {
   font-size: 1.6em;
-  padding: 18px 24px 18px 24px; }
+  padding: 14.5px 24px 14.5px 24px; }
 
 .luxbar-menu {
   min-height: 58px;
@@ -80,7 +80,7 @@
 .luxbar-item {
   height: 58px; }
   .luxbar-item a {
-    padding: 18px 24px 18px 24px;
+    padding: 20px 24px 20px 24px;
     display: block; }
 
 .luxbar-hamburger {
